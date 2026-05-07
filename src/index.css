@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --font-gothic: "MedievalSharp", cursive;
+  --font-serif: "Libre Baskerville", serif;
+  --font-sans: "Inter", sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;600;700&display=swap');
+
+body {
+  background-color: #e5ddd0;
+  background-image: url("https://www.transparenttextures.com/patterns/paper-fibers.png");
+  color: #1a1a1a;
+}
+
+.gothic-title {
+  font-family: var(--font-gothic);
+  text-transform: uppercase;
+}
+
+.serif-quote {
+  font-family: var(--font-serif);
+  font-style: italic;
+}

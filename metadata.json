@@ -1,0 +1,5 @@
+{
+  "name": "Tattoo Finder",
+  "description": "Plataforma para encontrar inspiração, simular tatuagens e calcular orçamentos com inteligência artificial.",
+  "requestFramePermissions": ["camera"]
+}
